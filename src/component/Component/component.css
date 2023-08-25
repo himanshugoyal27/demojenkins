@@ -1,0 +1,47 @@
+.overlap-group {
+  background-color: #f4f5f9;
+  border: 0.41px solid;
+  border-color: #6a6e8333;
+  border-radius: 36.57px;
+  height: 46px;
+  width: 139px;
+  float: right;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.ellipse {
+  height: 33px;
+  object-fit: cover;
+  width: 33px;
+}
+
+.text-wrapper-2 {
+  color: var(--heading-color);
+  font-size: 14px;
+  font-weight: 600;
+  height: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 5px;
+}
+
+.arrow-chevron-down {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.text-3 {
+  color: #53605f;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+.image {
+  height: 33px;
+  width: 33px;
+}

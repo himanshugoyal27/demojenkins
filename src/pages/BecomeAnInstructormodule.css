@@ -1,0 +1,94 @@
+.maskGroupBg {
+  margin: 0;
+  padding: 0;
+  background-image: url("../assests/svg/mask-group.svg");
+  background-size: cover;
+}
+.maskOttBg {
+  margin: 0;
+  padding: 0;
+  background-image: url("../assests/svg/ott-group.svg");
+  background-size: cover;
+}
+.bgGrad {
+  background: linear-gradient(-74.32deg, #f7f6f0, rgba(247, 246, 240, 0));
+}
+.head {
+  color: #53605f;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-left: 5px !important;
+}
+.toplink {
+  color: #53605f;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.ptext {
+  opacity: 0.8;
+  color: #53605f;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.secHead {
+  color: #53605f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+.orangeText {
+  color: #eb5e29;
+}
+.emailHead {
+  color: #53605f;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.inputLabel {
+  color: #53605f;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.formRight {
+  padding: 10% !important;
+}
+
+.image {
+  bottom: 0;
+  left: 0;
+}
+.sendText {
+  color: #53605f;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.otpWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-2);
+  padding: var(--padding-xs) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  width: 60px;
+  margin: 5px;
+  text-align: center;
+}

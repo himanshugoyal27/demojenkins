@@ -1,0 +1,48 @@
+.courseDetails2 {
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.01em;
+  color: var(--grey-9);
+  text-align: center;
+}
+.homeGetTrainedFindACoParent {
+  background-color: rgba(232, 224, 209, 0.4);
+  padding: 30px;
+  text-align: center;
+}
+.yourFullNameWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-2);
+  padding: var(--padding-xs) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.registerWrapper,
+.yourFullNameWrapper {
+  align-self: stretch;
+}
+.registerWrapper {
+  border-radius: 30px;
+  background-color: var(--orange);
+  border-color: var(--orange);
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+.frameParent11,
+.frame-parent12 {
+  display: flex;
+  flex-direction: column;
+}
+.frame-parent12 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-sm);
+  color: var(--grey-6);
+}
+.selectdull {
+  opacity: 0.8;
+}

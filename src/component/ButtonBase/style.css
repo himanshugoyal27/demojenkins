@@ -1,0 +1,326 @@
+.button-base {
+  align-items: center;
+  background-color: var(--primary-600);
+  border: 1px solid;
+  border-color: var(--primary-600);
+  border-radius: 8px;
+  box-shadow: var(--shadow-xs);
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.button-base .text {
+  color: var(--white);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-base .text-wrapper {
+  color: var(--white);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-base .circle {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.button-base .circle-13 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.button-base .dot-wrapper {
+  height: 10px;
+  position: relative;
+  width: 10px;
+}
+
+.button-base .div {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 8px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 8px;
+}
+
+.button-base .text-2 {
+  color: var(--white);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-base.md {
+  gap: 8px;
+}
+
+.button-base.only {
+  gap: 8px;
+}
+
+.button-base.sm {
+  gap: 8px;
+}
+
+.button-base.xl {
+  gap: 8px;
+}
+
+.button-base.lg {
+  gap: 8px;
+}
+
+.button-base.false {
+  gap: 8px;
+}
+
+.button-base.lg.leading {
+  padding: 10px 18px;
+}
+
+.button-base.lg.only {
+  padding: 12px;
+}
+
+.button-base.false.two-xl {
+  padding: 16px 28px;
+}
+
+.button-base.sm.false {
+  padding: 8px 14px;
+}
+
+.button-base.leading.two-xl {
+  gap: 12px;
+  padding: 16px 28px;
+}
+
+.button-base.xl.trailing {
+  padding: 12px 20px;
+}
+
+.button-base.md.trailing {
+  padding: 10px 16px;
+}
+
+.button-base.lg.dot {
+  padding: 10px 18px;
+}
+
+.button-base.sm.trailing {
+  padding: 8px 14px;
+}
+
+.button-base.leading.sm {
+  padding: 8px 14px;
+}
+
+.button-base.sm.only {
+  padding: 8px;
+}
+
+.button-base.lg.false {
+  padding: 10px 18px;
+}
+
+.button-base.dot.xl {
+  padding: 12px 20px;
+}
+
+.button-base.md.false {
+  padding: 10px 16px;
+}
+
+.button-base.only.xl {
+  padding: 14px;
+}
+
+.button-base.dot.two-xl {
+  gap: 12px;
+  padding: 16px 28px;
+}
+
+.button-base.md.only {
+  padding: 10px;
+}
+
+.button-base.leading.md {
+  padding: 10px 16px;
+}
+
+.button-base.false.xl {
+  padding: 12px 20px;
+}
+
+.button-base.only.two-xl {
+  padding: 16px;
+}
+
+.button-base.dot.md {
+  padding: 10px 16px;
+}
+
+.button-base.lg.trailing {
+  padding: 10px 18px;
+}
+
+.button-base.leading.xl {
+  padding: 12px 20px;
+}
+
+.button-base.two-xl.trailing {
+  gap: 12px;
+  padding: 16px 28px;
+}
+
+.button-base.sm.dot {
+  padding: 8px 14px;
+}
+
+.button-base.md .text {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button-base.sm .text {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button-base.xl .text {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button-base.lg .text {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button-base.two-xl .text {
+  font-family: var(--text-lg-semibold-font-family);
+  font-size: var(--text-lg-semibold-font-size);
+  font-style: var(--text-lg-semibold-font-style);
+  font-weight: var(--text-lg-semibold-font-weight);
+  letter-spacing: var(--text-lg-semibold-letter-spacing);
+  line-height: var(--text-lg-semibold-line-height);
+}
+
+.button-base.md .text-wrapper {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button-base.sm .text-wrapper {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button-base.xl .text-wrapper {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button-base.lg .text-wrapper {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button-base.two-xl .text-wrapper {
+  font-family: var(--text-lg-semibold-font-family);
+  font-size: var(--text-lg-semibold-font-size);
+  font-style: var(--text-lg-semibold-font-style);
+  font-weight: var(--text-lg-semibold-font-weight);
+  letter-spacing: var(--text-lg-semibold-letter-spacing);
+  line-height: var(--text-lg-semibold-line-height);
+}
+
+.button-base.md .text-2 {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button-base.sm .text-2 {
+  font-family: var(--text-sm-semibold-font-family);
+  font-size: var(--text-sm-semibold-font-size);
+  font-style: var(--text-sm-semibold-font-style);
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height: var(--text-sm-semibold-line-height);
+}
+
+.button-base.xl .text-2 {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button-base.lg .text-2 {
+  font-family: var(--text-md-semibold-font-family);
+  font-size: var(--text-md-semibold-font-size);
+  font-style: var(--text-md-semibold-font-style);
+  font-weight: var(--text-md-semibold-font-weight);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.button-base.two-xl .text-2 {
+  font-family: var(--text-lg-semibold-font-family);
+  font-size: var(--text-lg-semibold-font-size);
+  font-style: var(--text-lg-semibold-font-style);
+  font-weight: var(--text-lg-semibold-font-weight);
+  letter-spacing: var(--text-lg-semibold-letter-spacing);
+  line-height: var(--text-lg-semibold-line-height);
+}
